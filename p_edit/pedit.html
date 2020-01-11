@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Photo Editing</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+		
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+
+
+		<style>
+			/* unvisited link */
+			a{
+			  color: yellow;
+			
+			}
+			
+			
+			/* mouse over link */
+			a:hover {
+			  color: red;
+			}
+			
+			/* selected link */
+			a:active {
+			  color: blue;
+			}
+
+
+
+			</style>
+
+
+	</head>
+
+	<body>
+
+		<div class="wrapper">
+			<div class="inner">
+				<form action="pedit.php" method="POST">
+					<h3>Photoshop</h3>
+					<p style="font-size:16px;">Email your photo at "photoshop@madanstudio.com" and drop your details below explaining the kind of editing you want.(The editing cost per Photo is Rs. 1000)</p>
+					<label class="form-group">
+						<input type="text" class="form-control" name="name"  required>
+						<span>Your Name</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group">
+						<input type="email" class="form-control" name="email"  required>
+						<span for="">Your Mail</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group" >
+						<input type="text" class="form-control" name="msg"  required>
+						<span for="">Your Message</span>
+						<span class="border"></span>
+					</label>
+					<button>Submit 
+						<i class="zmdi zmdi-arrow-right"></i>
+					</button>
+					<a href="../homepage/index.php">Go Back</a>
+				</form>
+			</div>
+		</div>
+		
+	</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
